@@ -183,7 +183,7 @@ body {
 
     /* Уменьшаем размер картинки */
     .image-container {
-        margin: 20px 0;
+        margin: 15px 0;
     }
 
     .main-image {
@@ -202,7 +202,7 @@ body {
     /* Адаптируем боковую вкладку регистрации */
     .registration-sidebar {
         width: 50%; /* Вкладка занимает всю ширину экрана */
-        right: 10%; /* Скрыта за пределами экрана */
+        right: 50%; /* Скрыта за пределами экрана */
         padding: 20px;
         box-sizing: border-box; /* Учитываем padding в ширине */
     }
