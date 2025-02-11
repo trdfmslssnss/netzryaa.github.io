@@ -28,11 +28,16 @@ body {
     -webkit-text-fill-color: transparent;
     font-size: 3rem;
     margin-bottom: 20px;
+    line-height: 1.2; /* Улучшаем читаемость */
 }
 
 /* Картинка */
 .image-container {
     margin: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-image {
@@ -53,6 +58,8 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
     margin: 10px 0;
+    width: 100%; /* Кнопки занимают всю ширину */
+    max-width: 300px; /* Ограничиваем максимальную ширину */
 }
 
 .services-button:hover, .back-button:hover, .registration-toggle:hover {
@@ -107,6 +114,7 @@ body {
     border-radius: 5px;
     font-size: 1rem;
     box-sizing: border-box;
+    width: 100%; /* Поля занимают всю ширину */
 }
 
 .registration-form button {
@@ -118,6 +126,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    width: 100%; /* Кнопка занимает всю ширину */
 }
 
 .registration-form button:hover {
@@ -247,17 +256,20 @@ body {
     .rainbow-text {
         font-size: 2rem;
         margin-top: 20px;
+        line-height: 1.2; /* Улучшаем читаемость */
     }
 
     .services-button, .registration-toggle, .back-button {
         padding: 10px 20px;
         font-size: 1rem;
         width: 100%;
+        max-width: 100%; /* Кнопки занимают всю ширину */
         margin: 10px 0;
     }
 
     .main-image {
         max-width: 100%;
+        height: auto; /* Изображения не обрезаются */
     }
 
     .container {
