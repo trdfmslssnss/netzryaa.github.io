@@ -188,3 +188,41 @@ body {
         width: 50%; /* Контейнер занимает всю ширину */
         box-sizing: border-box; /* Учитываем padding в ширине */
     }
+
+    /* Адаптируем боковую вкладку регистрации */
+    .registration-sidebar {
+        width: 50%; /* Вкладка занимает всю ширину экрана */
+        right: 50%; /* Скрыта за пределами экрана */
+        padding: 20px;
+        box-sizing: border-box; /* Учитываем padding в ширине */
+    }
+
+    .registration-sidebar.open {
+        right: 0; /* Показываем вкладку */
+    }
+
+    /* Адаптируем форму регистрации */
+    .registration-form input {
+        padding: 10px;
+        font-size: 1rem;
+        width: 100%; /* Поля занимают всю ширину */
+        box-sizing: border-box; /* Учитываем padding в ширине */
+        margin-bottom: 10px; /* Добавляем отступы между полями */
+    }
+
+    .registration-form button {
+        padding: 10px;
+        font-size: 1rem;
+        width: 100%; /* Кнопка занимает всю ширину */
+    }
+
+
+    /* Адаптируем кнопку регистрации */
+    .registration-toggle {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        padding: 10px 20px;
+        font-size: 1rem;
+        z-index: 1000;
+    }
