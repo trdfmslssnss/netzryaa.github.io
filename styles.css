@@ -100,7 +100,7 @@ body {
 .registration-sidebar {
     position: fixed;
     top: 0;
-    right: 0px; /* Скрыта за пределами экрана */
+    right: -100000px; /* Скрыта за пределами экрана */
     width: 200px;
     height: 100%;
     background-color: white;
