@@ -160,6 +160,86 @@ body {
     background-color: gold;
 }
 
+/* Стили для второй страницы (services.html) */
+.services-page .container {
+    padding: 20px;
+    text-align: center;
+}
+
+.services-page h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: purple;
+}
+
+.services-page p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: purple;
+}
+
+.services-page .image-container {
+    margin: 20px 0;
+}
+
+.services-page .main-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.services-page .description {
+    font-size: 1rem;
+    color: purple;
+    margin: 20px 0;
+}
+
+.services-page .back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: yellow;
+    color: purple;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.services-page .back-button:hover {
+    background-color: gold;
+}
+
+/* Адаптация для мобильных устройств */
+@media (max-width: 768px) {
+    .services-page .container {
+        padding: 10px;
+    }
+
+    .services-page h1 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .services-page p {
+        font-size: 0.9rem;
+        margin-bottom: 10px;
+    }
+
+    .services-page .image-container {
+        margin: 10px 0;
+    }
+
+    .services-page .description {
+        font-size: 0.9rem;
+        margin: 10px 0;
+    }
+
+    .services-page .back-button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+        margin-top: 10px;
+    }
+}
 /* Общие стили для мобильных устройств */
 @media (max-width: 768px) {
     body {
