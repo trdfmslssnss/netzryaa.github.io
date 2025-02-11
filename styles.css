@@ -74,7 +74,7 @@ body {
 
 /* Стили для второй страницы (services.html) */
 .services-page .container {
-    padding: 20px;
+    padding: 2000px;
     text-align: center;
 }
 
@@ -90,13 +90,13 @@ body {
     color: purple;
 }
 
-.services-page .image-container {
+.image-container {
     margin: 20px 0;
 }
 
 .main-image2 {
-    width: 300px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
 }
 
 .services-page .description {
