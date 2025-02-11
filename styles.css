@@ -216,3 +216,84 @@ body {
         font-size: 0.9rem;
     }
 }
+/* Общие стили для мобильных устройств */
+@media (max-width: 768px) {
+    body {
+        padding: 10px; /* Добавляем отступы по краям */
+    }
+
+    /* Уменьшаем размер заголовка */
+    .rainbow-text {
+        font-size: 2rem;
+        text-align: center; /* Центрируем текст */
+        margin-top: 20px; /* Добавляем отступ сверху */
+    }
+
+    /* Уменьшаем размер кнопок */
+    .services-button, .registration-toggle, .back-button {
+        padding: 10px 20px;
+        font-size: 1rem;
+        width: 100%; /* Кнопки занимают всю ширину */
+        margin: 10px 0; /* Добавляем отступы между кнопками */
+    }
+
+    /* Уменьшаем размер картинки */
+    .image-container {
+        margin: 20px 0;
+    }
+
+    .main-image {
+        max-width: 100%; /* Картинка занимает всю ширину */
+        height: auto;
+        border-radius: 10px;
+    }
+
+    /* Адаптируем контейнер */
+    .container {
+        padding: 10px;
+        width: 100%; /* Контейнер занимает всю ширину */
+        box-sizing: border-box; /* Учитываем padding в ширине */
+    }
+
+    /* Адаптируем боковую вкладку регистрации */
+    .registration-sidebar {
+        width: 100%; /* Вкладка занимает всю ширину экрана */
+        right: -100%; /* Скрыта за пределами экрана */
+        padding: 20px;
+        box-sizing: border-box; /* Учитываем padding в ширине */
+    }
+
+    .registration-sidebar.open {
+        right: 0; /* Показываем вкладку */
+    }
+
+    /* Адаптируем форму регистрации */
+    .registration-form input {
+        padding: 10px;
+        font-size: 1rem;
+        width: 100%; /* Поля занимают всю ширину */
+        box-sizing: border-box; /* Учитываем padding в ширине */
+        margin-bottom: 10px; /* Добавляем отступы между полями */
+    }
+
+    .registration-form button {
+        padding: 10px;
+        font-size: 1rem;
+        width: 100%; /* Кнопка занимает всю ширину */
+    }
+
+    /* Адаптируем плавающие фигуры */
+    .floating-shape {
+        display: none; /* Скрываем фигуры на мобильных устройствах */
+    }
+
+    /* Адаптируем кнопку регистрации */
+    .registration-toggle {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        padding: 10px 20px;
+        font-size: 1rem;
+        z-index: 1000;
+    }
+}
