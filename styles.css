@@ -159,63 +159,7 @@ body {
 .registration-form button:hover {
     background-color: gold;
 }
-/* Общие стили для мобильных устройств */
-@media (max-width: 768px) {
-    /* Уменьшаем размер заголовка */
-    .rainbow-text {
-        font-size: 2rem;
-    }
 
-    /* Уменьшаем размер кнопок */
-    .services-button, .registration-toggle, .back-button {
-        padding: 8px 16px;
-        font-size: 0.9rem;
-    }
-
-    /* Уменьшаем размер картинки */
-    .main-image {
-        max-width: 90%;
-    }
-
-    /* Адаптируем контейнер */
-    .container {
-        padding: 10px;
-    }
-
-    /* Адаптируем боковую вкладку регистрации */
-    .registration-sidebar {
-        width: 100%; /* Вкладка занимает всю ширину экрана */
-        right: -100%; /* Скрыта за пределами экрана */
-    }
-
-    .registration-sidebar.open {
-        right: 0; /* Показываем вкладку */
-    }
-
-    /* Адаптируем форму регистрации */
-    .registration-form input {
-        padding: 8px;
-        font-size: 0.9rem;
-    }
-
-    .registration-form button {
-        padding: 8px;
-        font-size: 0.9rem;
-    }
-
-    /* Адаптируем плавающие фигуры */
-    .floating-shape {
-        display: none; /* Скрываем фигуры на мобильных устройствах */
-    }
-
-    /* Адаптируем кнопку регистрации */
-    .registration-toggle {
-        top: 10px;
-        right: 10px;
-        padding: 8px 16px;
-        font-size: 0.9rem;
-    }
-}
 /* Общие стили для мобильных устройств */
 @media (max-width: 768px) {
     body {
