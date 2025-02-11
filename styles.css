@@ -168,7 +168,7 @@ body {
     .services-button, .registration-toggle, .back-button {
         padding: 10px 20px;
         font-size: 1rem;
-        width: 100%; /* Кнопки занимают всю ширину */
+        width: 50%; /* Кнопки занимают всю ширину */
         margin: 10px 0; /* Добавляем отступы между кнопками */
     }
 
@@ -181,10 +181,7 @@ body {
         max-width: 50%; /* Картинка занимает всю ширину */
         height: auto;
         border-radius: 10px;
-    .main-image2 {
-        max-width: 50%; /* Картинка занимает всю ширину */
-        height: auto;
-        border-radius: 10px;
+    
     }
 
     /* Адаптируем контейнер */
