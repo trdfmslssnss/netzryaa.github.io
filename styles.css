@@ -157,34 +157,3 @@ body {
         width: 50%; /* Контейнер занимает всю ширину */
         box-sizing: border-box; /* Учитываем padding в ширине */
     }
-/* Адаптация для мобильных устройств */
-@media (max-width: 768px) {
-    .services-page .container {
-        padding: 10px;
-    }
-
-    .services-page h1 {
-        font-size: 1.5rem;
-        margin-bottom: 10px;
-    }
-
-    .services-page p {
-        font-size: 0.9rem;
-        margin-bottom: 10px;
-    }
-
-    .services-page .image-container {
-        margin: 10px 0;
-    }
-
-    .services-page .description {
-        font-size: 0.9rem;
-        margin: 10px 0;
-    }
-
-    .services-page .back-button {
-        padding: 8px 16px;
-        font-size: 0.9rem;
-        margin-top: 10px;
-    }
-}
