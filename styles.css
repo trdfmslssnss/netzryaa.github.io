@@ -178,10 +178,8 @@ body {
     }
 
     .main-image {
-        max-width: 50%; /* Картинка занимает всю ширину */
-        height: auto;
-        border-radius: 10px;
-    
+        width: 600px;
+        height: 800px;
     }
 
     /* Адаптируем контейнер */
