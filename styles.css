@@ -190,6 +190,10 @@ body {
         max-width: 50%; /* Картинка занимает всю ширину */
         height: auto;
         border-radius: 10px;
+    .main-image2 {
+        max-width: 50%; /* Картинка занимает всю ширину */
+        height: auto;
+        border-radius: 10px;
     }
 
     /* Адаптируем контейнер */
@@ -208,7 +212,7 @@ body {
     }
 
     .registration-sidebar.open {
-        right: 0; /* Показываем вкладку */
+        right: 1; /* Показываем вкладку */
     }
 
     /* Адаптируем форму регистрации */
